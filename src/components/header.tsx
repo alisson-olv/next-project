@@ -10,6 +10,8 @@ export default async function Header() {
         <li><Link href='/cursos'>Cursos</Link></li>
         <li><Link href='/login'>Login</Link></li>
         <li><Link href='/acoes'>Ações</Link></li>
+        <li><Link href='/produtos'>Produtos</Link></li>
+        <li><Link href='/produtos/adicionar'>Adicionar produtos</Link></li>
       </ul>
     </nav>
   )

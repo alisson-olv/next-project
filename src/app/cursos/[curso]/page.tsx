@@ -10,7 +10,6 @@ type ParamsProps = {
 export default async function CursoPage({ params }: ParamsProps) {
   const data = await CursoFetch(params.curso);
 
-
   return (
     <div>
       {
